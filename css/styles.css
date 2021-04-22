@@ -1,0 +1,519 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ====================== MY STYLES ====================== */
+
+
+body{
+	background: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+h1{
+	font-size: 71px;
+	line-height: 98px;
+	font-weight: bold;
+}
+
+p{
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+/* ======================  HEADER ====================== */
+
+header{
+	width: 100%;
+}
+
+header nav{
+	background: #222;
+	padding: 14px;
+}
+
+header .logo{
+	background: #c78b07;
+	padding-top: 18px;
+	padding-bottom: 79px;
+}
+
+header nav ul li a{
+	display: block;
+	color: #c78b07;
+	font-size: 18px;
+	line-height: 61px;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+header nav .flex-container ul li .current a{  
+	color: #222;
+	background: #c78b07;
+}
+
+
+header nav form input{
+	width: 624px;
+	height: 40px;
+	margin-top: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	padding-left: 6px;
+	padding-right: 10px;
+	color: #757575;
+}
+
+.search{
+	background-color: #222;
+	width: 45px;
+	height: 45px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #cc8e09;
+	color: #cc8e09;
+	font-size: x-large;
+}
+
+.intro{
+	background-image: url(../images/main-banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: block;
+	width: 100%;
+	height: 600px;
+}
+
+.container-1{
+	background-color: black;
+    background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 468px;
+}
+
+h1{
+	line-height: 100px;
+	color: #fff;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	margin-left: 14px;
+}
+
+.intro .container-1 p{
+	color:#fff;
+	margin-bottom: 10px;
+	margin-left: 14px;
+	width: 630px;
+}
+
+.container-1 button{
+	width: 258px;
+	height: 95px;
+	background-color: #cc8e09;
+	font-size: 21px;
+	border: none;
+	margin-left: 14px;
+}
+
+/* ====================== MAIN CSS ======================  */
+
+/* ====================== ABOUT US ======================  */
+
+main .about{
+	background-color: #ffe6ac;
+	height: 629px;
+}
+
+main .about .container .about-left img{
+	width: 692px;
+	height: 340px;
+	margin-top: 14px;
+	margin-left: 14px;
+	margin-bottom: 35px;
+
+}
+
+main .about-right{
+	margin-left: 14px;
+	margin-right: 14px;
+}
+
+main .about-right h2{
+	font-weight: bold;
+	font-size: 48px;
+	margin-bottom: 35px;
+}
+
+main .about-right p{
+	font-size: 14px;
+	line-height: 18px;
+}
+
+/* ====================== OUR SERVICES ======================  */
+
+.services .container{
+	background-color: #fff;
+}
+
+.services .container h2{
+	font-size: 48px;
+	font-weight: bold;
+	margin-left: 14px;
+	margin-top: 54px;
+	margin-bottom: 30px;
+}
+
+.services .container .grid-container img{
+	width: 100%;
+	height: 452px;
+}
+
+.services .container .grid-container h3{
+	font-size: 36px;
+	font-weight: bold;
+	margin-top: 42px;
+	margin-left: 14px;
+	margin-bottom: 30px;
+}
+
+.services .container .grid-container .grid-item p{
+	font-size: 14px;
+	margin-top: 42px;
+	margin-left: 14px;
+	margin-bottom: 18px;
+	width: 667px;
+	line-height: 18px;
+}
+
+.services .container .grid-container .grid-item button{
+	width: 220px;
+	height: 95px;
+	background-color: #222;
+	font-size: 21px;
+	color: #fff;
+	border: none;
+	margin-left: 14px;
+	margin-bottom: 14px;
+}
+
+.services .container .grid-container .grid-item{
+	background-color: #ffe6ac;
+	width: 693px;
+	margin-left: 13px;
+	margin-top: 14px;
+}
+
+.services .container .grid-container .grid-item .marketing{
+	width: 257px;
+}
+
+.services .container .grid-container .grid-item .video{
+	width: 213px;
+}
+
+.services .container .grid-container .grid-item .web{
+	width: 202px;
+}
+
+.services .container .grid-container .grid-item .print{
+	width: 205px;
+}
+
+/* ====================== OUR VISION ======================  */
+
+.vision{
+	background-image: url(../images/vision.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 278px;
+	margin-top: 30px;
+	padding-bottom: 14px;
+}
+
+.vision .container h3{
+	font-size: 36px;
+	font-weight: bold;
+	color: #fff;
+	padding-top: 42px;
+	margin-left: 14px;
+	margin-bottom: 30px;
+}
+
+.vision .container p{
+	color: #fff;
+	font-size: 14px;
+	width: 667px;
+	margin-left: 14px;
+	margin-bottom: 18px;
+	line-height: 18px;
+}
+
+.vision .container .learn{
+	width: 212px;
+	height: 93px;
+	background-color: #112f4b;
+	font-size: 21px;
+	color:#fff;
+	border-style: solid;
+	border-color: #cc8e09;
+	margin-left: 14px;
+}
+
+/* ====================== OUR TEAM ======================  */
+
+.team .grid-container{
+	background-color: #fff;
+}
+
+.team .grid-container h2{
+	font-size: 48px;
+	font-weight: bold;
+	margin-left: 14px;
+	margin-top: 54px;
+	margin-bottom: 30px;
+}
+
+.team .grid-container img{
+	width: 693px;
+	height: 452px;
+}
+
+.team .grid-container h3{
+	font-size: 36px;
+	font-weight: bold;
+	margin-top: 25px;
+	margin-left: 14px;
+}
+
+.team .grid-container h4{
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 14px;
+	margin-right: 14px;
+	padding-top: 14px;
+	border-bottom: 2px solid #cc8e09;
+}
+
+.team .grid-container .grid-item p{
+	font-size: 14px;
+	line-height: 18px;
+	margin-top: 16px;
+	margin-left: 14px;
+	margin-bottom: 32px;
+	width: 635px;
+}
+
+.team .grid-container .grid-row{
+	background-color: #ffe6ac;
+	width: 693px;
+	margin-left: 13px;
+	margin-top: 14px;
+	padding-bottom: 5px;
+}
+
+/* ====================== CONTACT US ======================  */
+
+.contact{
+	background-color: #fff;
+}
+
+.contact h2{
+	font-size: 48px;
+	font-weight: bold;
+	margin-left: 14px;
+	margin-top: 54px;
+	margin-bottom: 30px;
+}
+
+.contact h3{
+	font-size: 36px;
+	font-weight: bold;
+	margin-top: 25px;
+	margin-left: 14px;
+	margin-bottom: 18px;
+}
+
+.contact form{
+	font-size: 14px;
+	margin-left: 14px;
+}
+
+.contact form .input{
+	width: 685px;
+	height: 32px;
+	margin-bottom: 12px;
+	margin-top: 5px;
+}
+
+.contact form .textarea{
+	width: 685px;
+	height: 150px;
+	margin-bottom: 18px;
+	margin-top: 5px;
+}
+
+.contact form .send{
+	width: 60px;
+	height: 32px;
+	font-size: 16px;
+	color: #cc8e09;
+	background-color: #212121;
+}
+
+table, th, td {
+	border: 1px solid black;
+	vertical-align: middle;
+}
+
+th:nth-child(1), td:nth-child(1), td:nth-child(3){
+	width: 363px;
+	height: 18px;
+	margin-left: 14px;
+	margin-top: 10px;
+}
+
+th:nth-child(1){
+    background-color: #ffe6ac;
+}
+
+th:nth-child(2){
+	width: 294px;
+	height: 50px;
+	background-color: #ffe6ac;
+}
+
+table{
+	margin-left: 14px;
+	margin-right: 10px;
+}
+
+td{
+	padding: 16px;
+}
+
+.map{
+	margin-left: 14px;
+	margin-bottom: 14px;
+	width: 693px;
+}
+
+/* ====================== FOOTER ======================  */
+
+footer .footer p{
+	width: 706px;
+	height: 30px;
+	background-color: #212121;
+	color: #cc8e09;
+	padding-left: 14px;
+	padding-bottom: 6px;
+}
+ .copyright{
+	padding-top: 30px;
+ }
+
+a:link {
+	color: #cc8e09;
+}
+  
+a:visited {
+	color: #cc8e09;
+}
+
+@media screen and (min-width:760px){
+
+	h1{
+		font-size: 81px;
+		line-height:112px;
+		font-weight: bold;
+	}
+
+	h2{
+		font-size: 54px;
+		line-height: 1;
+		font-weight: bold;
+	}
+
+	p{
+		font-size: 16px;
+		line-height: 1.5;
+	}
+
+	header nav{
+		padding: 0;
+	}
+
+	header .logo{
+		background: none;
+		padding: 0;
+	}
+
+	.container{
+		width: 760px;
+		background: #fff;
+		margin: 0 auto;
+	}
+	
+
+
+
+
+
+
+
+
+} /* end media query */
+
+@media screen and (min-width: 1200px){
+
+	.container{
+		width:1200px;
+	}
+
+} /* end media query (LAST STEP) */ 
